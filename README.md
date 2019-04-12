@@ -11,7 +11,7 @@
 ## Zur Abgabe der Übung dient das Stack Projekt! 
 
 - [X] Versionieren Sie initial das Projekt.
-- [ ] Versionieren Sie nach jeder implementierten Testmethode.
+- [X] Versionieren Sie nach jeder implementierten Testmethode.
 - [ ] Ergänzen Sie auch die bestehenden Testmethoden um eigene weitere Testmethoden.
 
 >  :bangbang: Nicht immer ist eine 100%ige Code Coverage durch Ihre Unit-Tests möglich. Finden Sie heraus warum nicht immer 100% Code getestet werden kann!
