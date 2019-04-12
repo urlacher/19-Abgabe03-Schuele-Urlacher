@@ -1,5 +1,7 @@
 package at.fhj.iit;
 
+import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,6 +24,7 @@ public class StringStackTest
     @Test
     public void testIsEmpty() throws Exception
     {
+        assertTrue(s.isEmpty());
     }
     
     /**

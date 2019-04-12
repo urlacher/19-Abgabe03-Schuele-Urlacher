@@ -10,7 +10,7 @@
    
 ## Zur Abgabe der Übung dient das Stack Projekt! 
 
-- [ ] Versionieren Sie initial das Projekt.
+- [X] Versionieren Sie initial das Projekt.
 - [ ] Versionieren Sie nach jeder implementierten Testmethode.
 - [ ] Ergänzen Sie auch die bestehenden Testmethoden um eigene weitere Testmethoden.
 
