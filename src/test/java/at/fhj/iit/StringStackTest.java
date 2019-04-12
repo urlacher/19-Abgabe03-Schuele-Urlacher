@@ -86,12 +86,15 @@ public class StringStackTest
         s.pop();
     }
 
-
-
     /**
      * //TODO 3 test initialize new strack witz size -1 -> should throw IllegalArgumentException()
-     *
+     * test initial size for new stack -1
      */
+    @Test (expected = IllegalArgumentException.class)
+    public void testNegativeStackSize() throws Exception{
+        StringStack s2 = new StringStack(-1);
+        StringStack s3 = new StringStack(Integer.MIN_VALUE);
+    }
 
 
 
