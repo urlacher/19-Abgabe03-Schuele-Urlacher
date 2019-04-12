@@ -63,5 +63,47 @@ public class StringStackTest
     /**
      * Feel Free to insert other test cases for the String Stack Implementation !!!
      */
-    
+
+
+    /**
+     *
+     * test pushing until maximum size is exceeded
+     */
+    @Test (expected = IllegalStateException.class)
+    public void testMaxSize() throws Exception{
+        s.push("Test1");
+        s.push("Test2");
+        s.push("Test3");
+        s.push("Test4");
+        s.push("Test5");
+        s.push("Test6");
+    }
+
+
+
+
+    /**
+     * //TODO 2 test pop size -1 -> should throw IllegalStateException()
+     *
+     */
+
+
+
+    /**
+     * //TODO 3 test initialize new strack witz size -1 -> should throw IllegalArgumentException()
+     *
+     */
+
+
+
+    /**
+     * //TODO 4 push/pop string with null ???
+     *
+     */
+
+    /**
+     * //TODO 5 push string with null ???
+     *
+     */
+
 }
