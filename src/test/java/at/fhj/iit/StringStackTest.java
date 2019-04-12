@@ -66,7 +66,6 @@ public class StringStackTest
 
 
     /**
-     *
      * test pushing until maximum size is exceeded
      */
     @Test (expected = IllegalStateException.class)
@@ -79,13 +78,13 @@ public class StringStackTest
         s.push("Test6");
     }
 
-
-
-
     /**
-     * //TODO 2 test pop size -1 -> should throw IllegalStateException()
-     *
+     * test pop until min size is exceeded
      */
+    @Test (expected = IllegalStateException.class)
+    public void testMinSize() throws Exception{
+        s.pop();
+    }
 
 
 
