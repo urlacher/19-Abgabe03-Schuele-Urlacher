@@ -53,8 +53,13 @@ public class StringStackTest
     @Test
     public void testPushPop() throws Exception
     {
+        s.push("String1");
+        s.push("String2");
+        assertEquals(s.pop(),"String2");
+        assertEquals(s.pop(),"String1");
+        assertTrue(s.isEmpty());
     }
-    
+
     /**
      * Feel Free to insert other test cases for the String Stack Implementation !!!
      */
