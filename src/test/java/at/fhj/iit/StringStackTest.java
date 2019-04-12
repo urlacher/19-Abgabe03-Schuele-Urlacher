@@ -87,7 +87,6 @@ public class StringStackTest
     }
 
     /**
-     * //TODO 3 test initialize new strack witz size -1 -> should throw IllegalArgumentException()
      * test initial size for new stack -1
      */
     @Test (expected = IllegalArgumentException.class)
@@ -96,16 +95,14 @@ public class StringStackTest
         StringStack s3 = new StringStack(Integer.MIN_VALUE);
     }
 
-
-
     /**
-     * //TODO 4 push/pop string with null ???
-     *
+     *  test push new String null
      */
-
-    /**
-     * //TODO 5 push string with null ???
-     *
-     */
+    @Test
+    public void testStringNull() throws Exception{
+        s.push(null);
+        assertNull(s.pop());
+        assertTrue(s.isEmpty());
+    }
 
 }
